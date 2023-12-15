@@ -1,0 +1,21 @@
+def s(n:int) -> int:
+    if n == 0:
+        return 0
+    else:
+        return n + s(n-1)
+    
+def factorielle(n:int) -> int:
+    if n == 0:
+        return 1
+    else:
+        return n * factorielle(n-1)
+    
+def puissance(nb, n):
+    if n == 0:
+        return 1
+    else:
+        return (nb * puissance(nb, n-1))
+    
+    
+print(puissance(2, 2))
+print(factorielle(5))

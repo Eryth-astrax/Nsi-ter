@@ -1,0 +1,7 @@
+***__Eleve__***
+
+id : int
+nom : str
+prenom : str
+age : int
+

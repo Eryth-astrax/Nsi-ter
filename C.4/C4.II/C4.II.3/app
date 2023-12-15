@@ -1,0 +1,9 @@
+def inverser(txt):
+    if len(txt) == 0:
+        return txt
+    else:
+        lettre = txt[len(txt)-1]
+        txt =  txt[:len(txt)-1] + txt[len(txt)-1+1:]
+        return lettre + inverser(txt)
+
+print(inverser("pallindrome"))

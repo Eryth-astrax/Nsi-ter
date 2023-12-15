@@ -1,0 +1,12 @@
+Le but de l'exercice est de transformer une image en son négatif.
+
+Info : la couleur négative de (r, v, b) est (255-r, 255-v, 255-b).
+
+
+ballon.png
+Flèche
+Image d'une montgolfière en couleurs négatives
+ballon_negatif.png
+1) Écrire une fonction qui prend une couleur en paramètre et renvoie sa couleur négative.
+
+2) Écrire une fonction qui prend une chaine de caractères correspondant au nom d'un fichier image et enregistre dans un nouveau fichier l'image négative correspondante.
